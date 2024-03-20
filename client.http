@@ -1,0 +1,19 @@
+GET http://localhost:3333/cursosnet3
+###
+
+GET http://localhost:3333/api/links
+###
+
+###
+POST http://localhost:3333/api/links
+Content-Type: application/json
+
+{
+    "code": "cursosnet3",
+    "url": "http://google.com"
+}
+###
+
+
+GET http://localhost:3333/api/metrics
+###
