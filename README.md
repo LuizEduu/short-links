@@ -3,8 +3,8 @@ Short-Link é uma aplicação backend desenvolvida em Node.js e TypeScript que p
 A aplicação utiliza Fastify para roteamento de requisições, PostgreSQL como banco de dados relacional para armazenamento dos links e Redis para o rankeamento de dados, fornecendo métricas sobre os links mais acessados.
 
 Pré-requisitos
-Node.js 20.x
-Docker
+- Node.js 20.x
+- Docker
 
 ### uso
 na raiz do projeto execute o comando docker-compose up -d
